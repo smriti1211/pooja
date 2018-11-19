@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "pogautamadfv2"
+        },
+        "AzureBlobStorage1_connectionString": {
+            "value": ""
+        },
+        "AzureBlobStorage2_connectionString": {
+            "value": ""
+        },
+        "AzureBlob2_properties_typeProperties_fileName": {
+            "value": ""
+        },
+        "AzureBlob2_properties_typeProperties_folderPath": {
+            "value": "pogautamtest2-2018-10-26t10-16-17-771z"
+        },
+        "AzureBlob1_properties_typeProperties_fileName": {
+            "value": "partitionweblogs.hql"
+        },
+        "AzureBlob1_properties_typeProperties_folderPath": {
+            "value": "adfgetstarted/script"
+        }
+    }
+}
